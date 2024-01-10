@@ -22,7 +22,7 @@ public void setup()
     }
   }
 
-  System.out.println(firstTenPrime);
+  System.out.println(Double.toString(firstTenPrime).substring(0, 1) + Double.toString(firstTenPrime).substring(2, 11));
 }
 
 public boolean isPrime(double dNum)
